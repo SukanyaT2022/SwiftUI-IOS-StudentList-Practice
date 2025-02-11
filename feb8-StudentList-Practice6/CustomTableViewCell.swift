@@ -9,6 +9,12 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
+    @IBAction func buttontapIBAction(_ sender: Any) {
+        print("test")
+    }
+    
+    @IBOutlet weak var deleteButton: UIButton!
+    
     @IBOutlet weak var studentImageView: UIImageView!
     
     @IBOutlet weak var studentNameLabel: UILabel!
